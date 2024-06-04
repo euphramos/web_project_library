@@ -298,7 +298,7 @@
 }
 
 .membership__title {
-  max-width: 650px;
+  max-width: 574px;
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
@@ -309,7 +309,7 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px auto 0;
+  margin: 100px 0 0;
   display: flex;
   justify-content: center;
   column-gap: 40px;
@@ -355,12 +355,11 @@
 }
 
 .footer__column_content_hours {
-  margin-right: 120px;
+  margin-right: 80px;
   row-gap: 20px;
 }
 
 .footer__column_content_social {
-  margin-right: 120px;
   row-gap: 20px;
 }
 
@@ -384,7 +383,7 @@
   /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 16px;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -413,12 +412,13 @@
   height: 16px;
 }
 
-.footer__content_copyright {
+.footer__copyright {
+  margin-top: 100px;
   margin-right: auto;
   justify-content: space-between;
 }
 
-.footer__copyright {
+.footer__author {
   color: #ffffff;
   margin: 18px 0;
   line-height: 25px;
