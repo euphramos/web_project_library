@@ -361,10 +361,12 @@
 
 .footer__column_content_hours {
   margin-left: auto;
+  row-gap: 20px;
 }
 
 .footer__column_content_social {
   margin-left: 80px;
+  row-gap: 20px;
 }
 
 .footer__logo {
@@ -409,6 +411,8 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-icon {
